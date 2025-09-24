@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background: #3e65fe;
+  color: black;
+}
+.logo-box{
+  background: #fff;
+  padding: 30px 120px;
+  width: 550px;
+  height: 540px;
+  position: absolute;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.logo-twitter .icon{
+  font-size: 30px;
+}
+.logo-twitter h2{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.logo-box button{
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #999;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+.logo-box button .goog{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.logo-box button .apple{
+  font-size: 25px;
+  margin-right: 10px;
+}
