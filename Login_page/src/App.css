@@ -50,3 +50,40 @@ body{
   font-size: 25px;
   margin-right: 10px;
 }
+.logo-box span{
+  display: block;
+  width: 40px;
+  margin: auto;
+  background: #fff;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.logo-box input{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #999;
+  color: #000;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+::placeholder{
+  font-weight: 500;
+  color: #333;
+}
+.logo-box form button{
+  background: #000;
+  color: #fff;
+  border: none;
+  margin-bottom: 15px;
+}
+.logo-box p{
+  font-size: 14px;
+  color: #555;
+  margin: 40px 0px 50px;
+}
+.logo-box p a{
+  text-decoration: none;
+  color: #359cf0;
+  margin-left: 100px;
+  cursor: pointer;
+}

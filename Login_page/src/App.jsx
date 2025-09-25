@@ -24,6 +24,14 @@ function App() {
           </button>
         </div>
         <hr />
+        <span>Or</span>
+
+        <form >
+          <input type="text"  placeholder='Phone Email or username'/>
+          <button>Next</button>
+        </form>
+        <button>Forget Password</button>
+        <p>Don't Have an account <a>Sign up</a></p>
       </div>
      </div>
     </>
