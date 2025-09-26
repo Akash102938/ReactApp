@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // optional, only if using JS components
 
 import Home from './components/Home'
 import Create from './components/Create'
